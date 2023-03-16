@@ -1,0 +1,52 @@
+.center {
+    text-align: center;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: gray;
+  }
+
+.bg {
+    /* The image used */
+    background-image: url("Rich.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#gallery {
+  text-align: center;
+
+  color: black;
+
+}
+div.gallery {
+  margin: 52px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.map {
+  height: 100vh;
+}
+
+}
